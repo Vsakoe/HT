@@ -190,7 +190,7 @@ class CheckModulesMod(loader.Module):
     @loader.ratelimit
     async def checkmodcmd(self, message):
         """
-        <ссылка модуля> или "ответ на файл" или " отправьте файл" - для проверки модуля
+        <ссылка модуля> или "ответ на файл" - для проверки модуля
         """
         args = utils.get_args_raw(message)
         if args:
