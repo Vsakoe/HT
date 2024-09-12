@@ -36,8 +36,6 @@ logger = logging.getLogger(__name__)
 class ApodiktumMsgMergerMod(loader.Module):
     """
     Этот модуль "склеивает" разные сообщения вместе.
-
-    <emoji document_id=5413457095766855203>🤩</emoji> <b>Перевод HikkTutor</b>
     """
 
     strings = {
