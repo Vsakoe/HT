@@ -41,6 +41,7 @@ class ApodiktumMsgMergerMod(loader.Module):
     strings = {
         "name": "Apo-MsgMerger",
         "developer": "@anon97945",
+        "translate": "t.me/HikkTutor",
         "_cfg_active": "Независимо от того, включен модуль (или нет).",
         "_cfg_blacklist_chats": "список чатов, которые модуль будет просматривать (или не будет).",
         "_cfg_cst_auto_migrate": "Позволяет автоматически переносить определенные изменения при запуске.",
